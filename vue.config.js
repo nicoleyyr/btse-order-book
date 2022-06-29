@@ -17,8 +17,5 @@ module.exports = {
 			"secure": false
 			}
 		}
-	},
-	publicPath: process.env.NODE_ENV === 'production'
-    ? '/btse-order-book/'
-    : '/'
+	}
 }
