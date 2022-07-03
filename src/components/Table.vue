@@ -314,7 +314,7 @@
 		},
 		mounted () {
 			this.fetchData();
-			this.timer = setInterval(this.fetchData, 3000);
+			this.timer = setInterval(this.fetchData, 86400000);
 		},
 		beforeDestroy() {
 			this.cancelAutoUpdate();
